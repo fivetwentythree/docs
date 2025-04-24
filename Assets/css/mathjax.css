@@ -1,0 +1,14 @@
+/* Styles to prevent MathJax overflow */
+
+.MathJax_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1em; /* Add some padding below for scrollbar */
+}
+
+/* For MathJax v3 */
+mj-container[jax="SVG"][display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1em; /* Add some padding below for scrollbar */
+}
