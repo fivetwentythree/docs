@@ -29,7 +29,7 @@ How humans got it all wrong.
 *   **Why?** The Conventional Wisdom was comfortable, familiar, and supported by powerful groups (businesses want to sell more, advertisers encourage buying, economists built careers on these ideas). Questioning it felt strange or even wrong. It's like still obsessively searching for water even after you've built a house next to a giant, clean lake.
 *   **The Measurement Problem:** Our main measure of success was (and largely still is) Gross Domestic Product (GDP) – basically, how much stuff we produce and sell. This reinforces the idea that *more production* always equals *better*.
 
-![this how it feels like](/Assets/Images/12.jpeg)
+![this how it feels like]({{"/Assets/Images/12.jpeg"| relative_url }})
 
 **Step 4: The Consequences of Mismatched Thinking - What Goes Wrong?**
 
