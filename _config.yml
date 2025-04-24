@@ -1,8 +1,8 @@
 title: Lochana Perera
-description: Thinking Space
+description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://fivetwentythree.github.io/docs
+url: https://fivetwentythree.github.io/
 
 aux_links:
-  Template Repository: https://github.com/fivetwentythree/docs
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
