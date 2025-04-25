@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The Affluent Society
-description: How socity lost its way.
+description: How society lost its way
 image: /Assets/Images/12.jpeg
 parent: Books
 nav_order: 4
