@@ -4,7 +4,7 @@ title: Sample spaces and events
 parent: Probability and Statistics
 nav_order: 4
 ---
-# Sample spaces and events
+# 1.sample spaces and events
 
 **Prerequisite: The Idea of a Set**
 
