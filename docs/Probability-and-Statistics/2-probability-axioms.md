@@ -7,7 +7,8 @@ nav_order: 4
 # Axioms of Probability
 Imagine you want to build a sturdy, reliable skyscraper. You need incredibly strong foundations and fundamental principles that everything else rests upon. The Axioms of Probability, formulated by the great Russian mathematician Andrey Kolmogorov in the 1930s, are exactly that foundation for quantifying uncertainty.
 
-Before we get to the axioms themselves, we need to agree on some basic vocabulary and concepts.
+Before we get to the axioms themselves, we need to agree on some basic vocabulary and concepts. [we discussed this before]({{"/docs/Probability-and-Statistics/2-probability-axioms.md"| relative_url}}) but I think a refrehsher might serve you well.
+
 
 **Prerequisites: Setting the Stage**
 
