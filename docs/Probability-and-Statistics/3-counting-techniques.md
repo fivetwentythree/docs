@@ -6,6 +6,7 @@ nav_order: 4
 ---
 # Combinatorics or counting techniques
 
+
 Okay, let's delve into the world of **Combinatorics**, the art of counting. This is incredibly important in probability, especially when dealing with situations where all individual outcomes are equally likely. In such cases, the probability of an event is simply:
 
 
