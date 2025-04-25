@@ -1,0 +1,16 @@
+/* Custom styles to prevent sidebar overlap */
+
+.side-bar {
+  /* Assuming '.side-bar' is the correct class for the sidebar */
+  background-color: white; /* Use the theme's actual background color if different */
+  z-index: 10; /* Ensure sidebar is visually on top */
+  position: relative; /* Helps ensure z-index applies correctly */
+}
+
+.main-content {
+  /* Assuming '.main-content' holds the main page content */
+  position: relative; /* Establish stacking context */
+  z-index: 1; /* Ensure content is below the sidebar */
+}
+
+/* Add further adjustments if the above doesn't fully resolve the issue */

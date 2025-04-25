@@ -57,13 +57,10 @@ Let `Const_t` be housing completions or approvals (supply indicator).
 Let `Rent_t` be a rental price index (alternative cost).
 Let `Pol^D_t` represent demand-side policies (e.g., First Home Owner Grants, negative gearing settings).
 Let `Pol^S_t` represent supply-side policies (e.g., land release, zoning changes).
-Let `E_t[\Delta \ln P_{t+1}]` be the expected future growth rate of house prices formed at time t.
+Let $E_t[\Delta \ln P_{t+1}]$ be the expected future growth rate of house prices formed at time t.
 
-The model focuses on the *change* in the logarithm of house prices (`\Delta \ln P_t`), which approximates the percentage growth rate.
+The model focuses on the *change* in the logarithm of house prices ($\Delta \ln P_t$), which approximates the percentage growth rate.
 
-**The Error Correction Model (ECM) Structure:**
-
-$\Delta \ln P_t = \alpha_0 + \lambda \left[ \ln P_{t-1} - \left( \beta_0 + \beta_1 \ln I_{t-1} + \beta_2 R_{t-1} + \beta_3 \ln Pop_{t-1} - \beta_4 \ln H_{t-1} + \beta_5 \ln Rent_{t-1} \right) \right] + \sum_{i=1}^{p} \gamma_i \Delta \ln P_{t-i} + \sum_{j=0}^{q} \delta_j \Delta \ln I_{t-j} + \sum_{k=0}^{r} \zeta_k \Delta R_{t-k} + \sum_{l=0}^{s} \eta_l \Delta \ln Const_{t-l} + \sum_{m=0}^{u} \theta_m \Delta Cred_{t-m} + \phi_1 Pol^D_t + \phi_2 Pol^S_t + \psi E_t[\Delta \ln P_{t+1}] + \epsilon_t$
 
 **Explanation of Components:**
 
