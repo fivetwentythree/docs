@@ -1,2 +1,16 @@
 <link rel="stylesheet" href="{{ '/assets/css/mathjax.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom_styles.css' | relative_url }}">
+
+<!-- Social Card Meta Tags -->
+{% assign page_title = page.title | default: site.title %}
+{% assign page_description = page.description | default: site.description %}
+{% assign page_image = page.image | default: site.social_image %}
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:image" content="{{ site.url }}{{ page_image }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+<meta name="twitter:image" content="{{ site.url }}{{ page_image }}">
+<!-- End Social Card Meta Tags -->

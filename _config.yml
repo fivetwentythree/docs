@@ -1,5 +1,5 @@
 title: Lochana Perera
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: my pursuit to understand the world
 theme: just-the-docs
 
 url: https://fivetwentythree.github.io/
@@ -8,3 +8,9 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.3"
+
+#color_scheme: dark
+
+# Social card settings
+social_image: /assets/images/social_card.png # Default social card image
+
