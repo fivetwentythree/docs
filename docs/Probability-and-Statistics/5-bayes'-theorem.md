@@ -105,7 +105,7 @@ Imagine the entire set of possibilities, our sample space Ω. A **partition** of
     *   $P(H)$: **Prior Probability:** The initial probability of hypothesis H *before* observing evidence E. Represents our prior belief.
     *   $P(E \mid H)$: **Likelihood:** The probability of observing evidence E *if* hypothesis H were true. This quantifies how well the hypothesis explains the evidence.
     *   $P(E)$: **Probability of the Evidence (Marginal Likelihood):** The overall probability of observing the evidence E, averaged over all possible hypotheses (calculated using LTP). It acts as a normalizing constant, ensuring the posterior probabilities sum to 1 across all hypotheses.
-    *   $P(E \mid ^c)$: Likelihood of the evidence under the alternative hypothesis.
+    *   $P(E \mid H^c)$: Likelihood of the evidence under the alternative hypothesis.
 
 *   **Intuition:** Bayes' theorem mathematically combines our prior beliefs with how well our hypothesis explains the new data, relative to how well alternative hypotheses explain the data, to arrive at an updated belief.
     *   Posterior probability is high if:
